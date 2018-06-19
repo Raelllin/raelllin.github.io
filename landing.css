@@ -1,0 +1,341 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(helvetica.otf);
+}
+body{
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height: 100%;
+}
+
+header{
+  width: 100%;
+  height: 60px;
+  background-color: #30602b;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+header #city{
+  float: right;
+  font-size: 1.1em;
+  margin-right: 2%;
+  font-family: Helvetica;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  position: relative;
+}
+#city_icon{
+  float: right;
+  height: auto;
+  width: 30px;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+header #quicksearch{
+  float: left;
+  font-size: 2.2em;
+  margin-left: 3%;
+  font-family: "Mistral";
+  color: white;
+  margin-top: 0.5%;
+}
+.first-screen{
+  float: left;
+  height: 650px;
+  width: 100%;
+  background-color: #f9f9f9;
+  position: absolute;
+}
+#pic{
+  float: right;
+  height: auto;
+  width: 43%;
+}
+.tittle{
+  height: 380px;
+  width: 58%;
+  float: left;
+  position: absolute;
+}
+#p1{
+  font-size: 13em;
+  color: #f0efef;
+  margin-left: 0px;
+  position: absolute;
+  margin-top: 3.5%;
+  font-family: helvetica;
+  letter-spacing: 30px;
+}
+#p2{
+  font-size: 4.5em;
+  color: black;
+  position: absolute;
+  font-family: Helvetica;
+  margin-top: 19.5%;
+  margin-left: 16%;
+  letter-spacing: 5px;
+}
+#p3{
+  font-size: 2em;
+  color: black;
+  font-family: Helvetica;
+  margin-top: 32%;
+  margin-left: 30%;
+  margin-bottom: 0px;
+  letter-spacing: 2px;
+}
+#p4{
+  font-size: 2em;
+  color: black;
+  font-family: Helvetica;
+  margin-left: 40%;
+  margin-top: 0px;
+  letter-spacing: 2px;
+}
+.button{
+  clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
+  background-color: #378a2f;
+  width: 400px;
+  height: 75px;
+  margin-left: 36%;
+  margin-top: 28%;
+  box-shadow: 5px 5px 10px 3px #d1d1d1;
+}
+#p5{
+  color: white;
+  font-size: 2em;
+  font-family: helvetica;
+  text-decoration: none;
+  margin-left: 70px;
+  margin-right: 40px;
+  margin-top: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  position: absolute;
+}
+
+
+.benefits{
+  height: 570px;
+  width: 100%;
+  display: block;
+  background-color: white;
+  position: absolute;
+  margin-top: 650px;
+}
+#p6{
+  font-size: 3em;
+  font-family: helvetica;
+  margin-top: 90px;
+  margin-left: 20%;
+  letter-spacing: 3px;
+}
+.icons img{
+  height: 100px;
+  width: auto;
+}
+.icons p{
+  font-size: 1.7em;
+  font-family: helvetica;
+}
+.icons{
+  height: 120px;
+  width: 100%;
+  text-align: center;
+}
+.icons p{
+  text-align: center;
+}
+.pic1{
+  display: block;
+  width: 22%;
+  float: left;
+  margin-left: 90px;
+}
+.pic2{
+  display: block;
+  width: 22%;
+  float: left;
+}
+.pic3{
+  display: inline;
+  width: 22%;
+  float: left;
+}
+.pic4{
+  display: inline;
+  width: 22%;
+  float: left;
+}
+.goto{
+  width: 100%;
+  height: 60px;
+  background-color: #30602b;
+  color: white;
+  margin-top: 1180px;
+  display: block;
+  position: relative;
+  margin-right: 0px;
+}
+.goto p{
+  font-size: 1.7em;
+  font-family: helvetica;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  width: 60%;
+  position: relative;
+  margin-right: 0px;
+  text-align: center;
+}
+#p7{
+  margin-top: 10px;
+}
+.goto img{
+  height: 15px;
+  width: auto;
+  float: right;
+  margin-right: 300px;
+  margin-top: 20px;
+}
+.map{
+  height: 500px;
+  background-color: white;
+}
+.map img{
+  height: 300px;
+  width: auto;
+  float: left;
+  margin-left: 10%;
+  margin-top: 7%;
+}
+.buttonone{
+  clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
+  background-color: #378a2f;
+  width: 400px;
+  height: 75px;
+  float: right;
+  box-shadow: 5px 5px 10px 3px #d1d1d1;
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 55%;
+  z-index: 10;
+}
+.slanted{
+  clip-path: polygon(0 0, 25% 0, 100% 100%,75% 100%);
+  height: 500px;
+  width: 620px;
+  background-color: #f9f9f9;
+  margin-left: 25%;
+}
+.map p{
+  position: absolute;
+  font-size: 1.7em;
+  font-family: helvetica;
+  letter-spacing: 2px;
+}
+#p8{
+  margin-top: 8%;
+  margin-left: 52%;
+}
+#p9{
+  margin-top: 10%;
+  margin-left: 56%;
+}
+
+
+@media screen and (max-width: 1024px){
+  .first-screen{
+    height: 473px;
+  }
+  #p1{
+    font-size: 10em;
+  }
+  #p2{
+    font-size: 3.7em;
+  }
+  #p3{
+    font-size: 1.4em;
+    margin-top: 33%;
+  }
+  #p4{
+    font-size: 1.4em;
+  }
+  .button{
+    width: 360px;
+    height: 70px;
+    margin-left: 31%;
+  }
+  #p5{
+    font-size: 1.6em;
+  }
+  .benefits{
+    height: 500px;
+    margin-top: 473px;
+  }
+  #p6{
+    font-size: 2.6em;
+    margin-left: 18%;
+  }
+  .icons img{
+    height: 75px;
+    width: auto;
+  }
+  .icons p{
+    font-size: 1.5em;
+  }
+  .icons p{
+    text-align: center;
+  }
+  .pic1{
+    margin-left: 60px;
+  }
+  .goto{
+    margin-top: 973px;
+  }
+  .goto p{
+    font-size: 1.6em;
+  }
+  #p7{
+    margin-top: 10px;
+  }
+  .map{
+    height: 420px;
+    background-color: white;
+  }
+  .map img{
+    height: 260px;
+    margin-left: 8%;
+    margin-top: 7%;
+  }
+  .buttonone{
+    width: 360px;
+    height: 70px;
+    margin-top: 17%;
+    margin-left: 55%;
+    z-index: 10;
+  }
+  .slanted{
+    clip-path: polygon(0 0, 25% 0, 100% 100%,75% 100%);
+    height: 420px;
+    width: 600px;
+    background-color: #f9f9f9;
+    margin-left: 25%;
+  }
+  .map p{
+    position: absolute;
+    font-size: 1.6em;
+    font-family: helvetica;
+    letter-spacing: 2px;
+  }
+  #p8{
+    margin-top: 8%;
+    margin-left: 52%;
+  }
+  #p9{
+    margin-top: 10%;
+    margin-left: 56%;
+  }
+}
